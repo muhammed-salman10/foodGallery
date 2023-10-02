@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Permanent+Marker&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text:ital@1&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+
+
+
+.parent1{
+    height: 100px;
+    /* width: 100%; */
+    /* background-color:yellowgreen; */
+    background-color: yellow;
+    /* background-color: gray; */
+    padding: 0 10 0 10;
+    position: relative;
+    flex-wrap: wrap;
+    
+    
+    
+
+}
+.icon{
+    padding:10px ;  
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    
+    
+}
+.navbar{
+    position: absolute;
+    right: 90px;
+    top: 25px;
+    font-size: 15px;
+    /* background-image: linear-gradient(to right, #9E768F , #9FA4C4); */ 
+}
+
+
+
+ 
+
+
+   .parent2{
+    height:635px;
+    width: 100%;
+    /* background-color:yellow; */
+    background-color: black;
+    position: relative;
+    flex-wrap: wrap;
+
+   } 
+   
+    h1{
+    color: red;
+    font-family: 'Croissant One', cursive;
+    position: absolute;
+    left: 44px;
+    flex-wrap: wrap;
+   
+    
+    
+    
+   }
+   h2{
+    position: absolute;
+    color: aliceblue;
+        font-family: 'Croissant One', cursive;
+        top: 70px;
+        left: 40px;
+       
+   }
+   p{
+    position: absolute;
+    font-family: 'Croissant One', cursive;
+        color: aliceblue;
+        top: 25%;
+        left: 3%;
+        font-size: 25px;
+        /* columns: 200px 2;
+        column-gap: 30px;
+        padding: 25px; */
+   }
+   button{
+    position: absolute;
+    border-radius: 40px;
+        border: none;
+        color: black;
+        padding: 15px 32px;
+        font-size: 16px;
+        margin: 29px 0px 0px 20px ;
+        top: 65%;
+        left: 2%;
+       
+   }
+   button:hover{
+      background-color: red;
+   }
+
+   .img{
+    position: absolute;
+    left: 60%;
+    height: 65%;
+    width: 30%;
+    top: 20%;
+    /* border: 1px red solid; */
+    flex-wrap: wrap;
+   }
+
+
+
+
+
+   .parent3{
+    height: 800px;
+    /* background-color: darkmagenta; */
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+   }
+   .c{
+    height: 300px;
+    width: 300px;
+    /* border: 1px red solid; */
+    margin-top: 50px;
+    flex-grow: 1;
+    flex-basis: 200;
+    /* transition: .5s ease-in; */
+    
+
+   }
+   /* .c:hover
+
+   {
+      transform: scale(1.5s);
+   } */
+   .c1 .i1{
+
+    height:300px;
+    width:300px;
+         
+   }
+   .c2 .i2{
+    background-color: aqua;
+    height:300px;
+    width:300px;      
+   }
+
+   .c3 .i3{
+    height:300px;
+    width:300px;
+   }
+
+   .c4 .i4{
+    height:300px;
+    width:300px;    
+   }
+
+
+   /* .h1 h1 */
+   #h1{
+
+    margin-left: 550px;
+    /* background-color: yellow; */
+    margin-top: 120px;
+    font-family: 'Croissant One', cursive;
+    flex-wrap: wrap;
+    color: yellow;
+   }
+   #h1h1{
+    color: yellow;
+   }
+   h3{
+    color: aqua;
+    font-size: 20px;
+    margin-left: 40px;
+   }
+   h4{
+    color: red;
+    font-size: 15px;
+    margin-left:100px ;
+   }
+   .page31 h1{
+    color: brown;
+   }
+
+
+
+
+   .parent4{
+    height: 800px;
+    /* background-color: blue; */
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+   .parent4 h1{
+    margin-left: 500px;
+    margin-bottom: 700px;
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+   }
+
+   .page3{
+          height: 300px;
+          width: 300px;
+          /* border: 1px rgba(149, 255, 0, 0.61) solid; */
+          margin-bottom: 120px;
+          
+   }
+   .page31 .img1{
+    height: 300px;
+    width: 300px;
+   }
+   .page32 .img2{
+    height: 300px;
+    width: 300px;
+   }
+   .page33 .img3{
+    height: 300px;
+    width: 300px;
+   }
+   .page34 .img4{
+    height: 300px;
+    width: 300px;
+   }
+
+   .page3 h5{
+    font-size: 20px;
+    margin-left: 70px;
+    color: aqua;
+   }
+   
+   h6{
+    font-size: 30px;
+    margin-left:85px;
+    margin-top: 30px;
+    color: red;
+   }
+   span{
+    color: red;
+   }
+   body{
+    background-color: black;
+    
+   }
+   .footer{
+    background-color: gray;
+    height: 150px;
+   }
+ .fatwin{
+    text-align: center;
+    font-size: 10px;
+    
+ }
+ #l1{
+    margin-top: 30px;
+
+ }
+ #l2{
+    margin-left: 20px;
+
+ }
+ #l3{
+    margin-left: 20px;
+
+ }
+ marquee{
+    margin-top: 40px;
+ }
+  
+
+
+
+
+    /* .parent5{
+    height: 500px;
+    background-color:black;
+    margin-top: 50px;
+     flex-wrap: wrap; 
+    
+    }
+   .thanks{
+    margin-top: 100px;
+   height: 400px;
+   margin-left: 520px;
+   flex-wrap: wrap;
+   }
+
+ */
+
+
+
+
+
+
+
+ 
+
+ @media only screen and (max-width: 768px){
+    .icon{
+        padding:10px ;  
+        position: absolute;
+        left: 5px;
+        top: 10px;
+
+ }
+ .parent1{
+    /* height: 100px; */
+    width: 414px;
+    /* background-color:yellowgreen; */
+    background-color: yellow;
+    /* padding: 0 10 0 10; */
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: -8px;
+    margin-left: -8px;
+
+}
+.navbar{
+    position: absolute;
+    right: 9px;
+    top: 25px;
+    font-size: 15px;
+    /* color: blue;  */
+    display: none;
+   
+}
+
+  
+
+
+.parent2{
+    /* height:635px;
+    width: 100%;
+    /* background-color:yellow; */
+    /* background-color: black;
+    position: relative;
+    flex-wrap: wrap; */ 
+
+   } 
+   
+    h1{
+    /* color: red;
+    font-family: 'Croissant One', cursive; */
+    /* position: absolute; */
+    left: 23px;
+    /* flex-wrap: wrap; */
+   
+    
+    
+    
+   }
+   h2{
+    position: absolute;
+    color: aliceblue;
+        font-family: 'Croissant One', cursive;
+        top: 70px;
+        left: 23px;
+       
+   }
+   p{
+    /* position: absolute;
+    font-family: 'Croissant One', cursive;
+        color: aliceblue; */
+        top: 190px;
+        left: 23px;
+        font-size: 10px;
+        /* columns: 200px 2;
+        column-gap: 30px;
+        padding: 25px; */
+   }
+   button{
+     position: absolute;
+    border-radius: 40px; 
+         border: none; 
+         color: black; 
+         padding: 15px 32px; 
+        font-size: 16px;
+        margin: 29px 0px 0px 20px ;
+        top: 450px;
+        left: 23px;
+       
+   }
+   button:hover{
+      background-color: red;
+   }
+   .img{
+    /* position: absolute; */
+    left: 60px;
+    height: 140px;
+    width: 57%;
+    top: 310px;
+    /* border: 1px red solid; */
+    /* flex-wrap: wrap; */
+   }
+   #h1{
+    margin-left: 30px;
+    margin-top: -38px;
+    
+   }
+   .c{
+    /* height: 300px;
+    width: 300px; */
+    /* border: 1px red solid; */
+    /* margin-top: 50px;
+    flex-grow: 1;
+    flex-basis: 200; */
+    margin-left: 20px;   
+}
+#h1h1{
+    margin-left: 46px;
+    margin-top: 1823px;
+    
+}
+.parent4{
+    height: 800px;
+    /* background-color: blue; */
+    /* background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; */
+   }
+   .parent4 h1{
+    margin-left: 500px;
+    margin-bottom: 700px;
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+   }
+
+   .page3{
+          height: 300px;
+          width: 300px;
+          /* border: 1px rgba(149, 255, 0, 0.61) solid; */
+          margin-bottom: 120px;
+          
+   }
+   .page31 .img1{
+    height: 300px;
+    width: 300px;
+    margin-top:1130px;
+   }
+
+   .page32 .img2{
+    height: 300px;
+    width: 300px;
+    margin-top:1190px;
+    
+   }
+
+   .page33 .img3{
+    height: 300px;
+    width: 300px;
+    margin-top: 1235px;
+   }
+
+   .page34 .img4{
+    height: 300px;
+    width: 300px;
+    margin-top: 1280px;
+   }
+
+   .c2 .i2{
+    background-color: aqua;
+    height:300px;
+    width:300px;
+    margin-top: 52px;      
+   }
+
+   .c3 .i3{
+    height:300px;
+    width:300px;
+    margin-top: 113px;  
+   }
+
+   .c4 .i4{
+    height:300px;
+    width:300px;  
+    margin-top: 153px;    
+   }
+   .footer{
+    background-color: gray;
+    height: 100px;
+    margin-top: 2216px;
+    width: 406px;
+    
+    
+   }
+ .fatwin{
+    text-align: center;
+    font-size: 6px;
+    
+ }
+ marquee{
+    margin-top: 15px;
+ }
+ }
+
+
+
+
+
+
+
+
+ @media only screen and (min-width: 767px) and (max-width: 991px)
+ {
+    .icon{
+        padding:10px ;  
+        position: absolute;
+        left: 5px;
+        top: 10px;
+
+ }
+ .parent1{
+    /* height: 100px; */
+    /* width: 767px; */
+    width: 820px;
+    /* width: 911px; */
+    /* background-color:yellowgreen; */
+    background-color: yellow;
+    /* padding: 0 10 0 10; */
+    position: relative;
+    flex-wrap: wrap;
+    margin-top: -8px;
+    margin-left: -8px;
+
+}
+.navbar{
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    font-size: 15px;  
+}
+   h1{
+    left:23px ;
+   }
+   h2{
+    position: absolute;
+    color: aliceblue;
+        font-family: 'Croissant One', cursive;
+        top: 70px;
+        left: 23px;
+       
+   }
+   p{
+    top: 135px;
+    left: 23px;
+    font-size: 15px;
+   }
+   button{
+    position: absolute;
+   border-radius: 40px; 
+        border: none; 
+        color: black; 
+        padding: 15px 32px; 
+       font-size: 16px;
+       margin: 29px 0px 0px 20px ;
+       top: 565px;
+       left: 23px;
+      
+  }
+  button:hover{
+   background-color: red;
+}
+  .img{
+    /* position: absolute; */
+    left: 190px;
+    height: 236px;
+    width: 58%;
+    top: 310px;
+    /* border: 1px red solid; */
+    /* flex-wrap: wrap; */
+   }
+   #h1{
+    margin-left: 222px;
+    margin-top: 122px;
+    
+   }
+   .parent4{
+    height: 800px;
+    /* background-color: blue; */
+    /* background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap; */
+   }
+   .parent4 h1{
+    margin-left: 500px;
+    margin-bottom: 700px;
+    /* background-color: yellow; */
+    flex-wrap: wrap;
+   }
+
+   .page3{
+          height: 300px;
+          width: 300px;
+          /* border: 1px rgba(149, 255, 0, 0.61) solid; */
+          margin-bottom: 120px;
+          
+   }
+   #h1h1{
+    margin-left: 120px;
+    margin-top: 578px;
+   }
+   .page31 .img1{
+    height: 300px;
+    width: 300px;
+    margin-top: 450px;
+   }
+   .page32 .img2{
+    height: 300px;
+    width: 300px;
+    margin-top: 450px;
+   }
+   .page33 .img3{
+    height: 300px;
+    width: 300px;
+    margin-top: 540px;
+   }
+   .page34 .img4{
+    height: 300px;
+    width: 300px;
+    margin-top: 540px;
+   }
+   .c1 .i1{
+    background-color: aqua;
+    height:300px;
+    width:300px;
+    margin-top: 130px;   
+    margin-left: 35px;   
+   }
+   .c2 .i2{
+    background-color: aqua;
+    height:300px;
+    width:300px;
+    margin-top: 130px; 
+
+   }
+
+   .c3 .i3{
+    height:300px;
+    width:300px;
+    margin-top: 150px; 
+    margin-left: 35px; 
+   }
+
+   .c4 .i4{
+    height:300px;
+    width:300px;  
+    margin-top: 150px;    
+   }
+   .footer{
+    background-color: gray;
+    height: 100px;
+    margin-top: 619px;
+    margin-left: -8px;
+    width: 819px;
+    
+   }
+ .fatwin{
+    text-align: center;
+    font-size: 5px;
+    
+ }
+ marquee{
+    margin-top: 15px;
+ }
+ .parent3{
+    height: 800px;
+    /* background-color: darkmagenta; */
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 49px;
+
+ }
+
+ 
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ @media only screen and (min-width: 992px) and (max-width: 1023px)
+ {
+   h1{
+      left:23px ;
+     }
+     h2{
+      position: absolute;
+      color: aliceblue;
+          font-family: 'Croissant One', cursive;
+          top: 70px;
+          left: 23px;
+         
+     }
+     p{
+      top: 135px;
+      left: 23px;
+      font-size: 18px;
+     }
+     button{
+      position: absolute;
+     border-radius: 40px; 
+          border: none; 
+          color: black; 
+          padding: 15px 32px; 
+         font-size: 16px;
+         margin: 29px 0px 0px 20px ;
+         top: 565px;
+         left: 23px;
+        
+    }
+    .img{
+      /* position: absolute; */
+      left: 500px;
+      height: 251px;
+      width: 41%;
+      top: 308px;
+      /* border: 1px red solid; */
+      /* flex-wrap: wrap; */
+     }
+     #h1{
+      margin-left: 304px;
+      margin-top: 122px;
+ }
+ .c1 .i1{
+   background-color: aqua;
+   height:256px;
+   width:207px;
+   margin-top: -130px;   
+   margin-left: 35px;   
+  }
+  .c2 .i2{
+   background-color: aqua;
+   height:256px;
+   width:207px;
+   margin-top: -130px; 
+   margin-left: 35px;
+
+  }
+
+  .c3 .i3{
+   height:256px;
+   width:207px;
+   margin-top: -130px; 
+   margin-left: 23px; 
+   /* margin-left: -101px; */
+  }
+
+  .c4 .i4{
+   height:256px;
+   width:207px;  
+   margin-top: -130px;  
+   margin-left: 20px;  
+  }
+  .c{
+   height: 100px;
+   width: 100px;
+  }
+  #h1h1{
+   margin-left: 232px;
+   margin-top: -226px;
+  }
+  .page31 .img1{
+   height: 300px;
+   width: 300px;
+   margin-top: 100px;
+  }
+  .page32 .img2{
+   height: 300px;
+   width: 300px;
+   margin-top: 100px;
+  }
+  .page33 .img3{
+   height: 300px;
+   width: 300px;
+   margin-top: 101px;
+  }
+  .page34 .img4{
+   height: 300px;
+   width: 300px;
+   margin-top: 200px;
+  }
+
+
+
+
+
+
+
+
+
+  
+  .footer{
+   background-color: gray;
+   height: 100px;
+   margin-top: 300px;
+   margin-left: -8pxpx;
+   
+  }
+.fatwin{
+   text-align: center;
+   font-size: 5px;
+   
+}
+marquee{
+   margin-top: 15px;
+}
+button:hover{
+   background-color: red;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
